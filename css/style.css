@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 300px;
+    height: 529px;
+    border-radius: 16px 16px 0px 0px;
+    margin: 150px 10px;
+    background-color:#F3F3F3;
+}
+.bannerBatman{
+    background-image: url('/img/849bfede3a5193c34ab8a00379e64fa2\ 1.png');
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 193px;
+    
+}
+.bannerHarley{
+    background-image: url('/img/849bfede3a5193c34ab8a00379e64fa2\ 1\ \(1\).png');
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 193px;
+    
+}
+.retrato{
+    width: 120px;
+    height: 118px;
+    border-radius: 50%;
+    position: relative;
+    top: -60px;
+    left: 90px;
+}
+.retrato:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cajaInfo{
+    height: 336px;
+    width: 300px;
+}
+.titulo{
+    font-family:'Roboto', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 35.16px;
+    text-align: center;
+    position: relative;
+    top: -54px;
+
+}
+.cajaInfo p{
+    position: relative;
+    top: -40px;
+    width: 267px;
+    height: 113px;
+    font-family:'Roboto', sans-seri;
+    font-weight: normal;
+    line-height: 18.75px;
+    font-size: 16px;
+    color: #333333;
+    margin-left: 16px;
+}
+.cajaInfo button{
+    background-color: #00669f;
+    width: 128.78px;
+    height:48.52px;
+    position: relative;
+    top: -20px;
+    left: 85.61px;
+    color: #F3F3F3;
+}
+.cajaInfo button:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.corazon{
+    width: 30px;
+    height: 26.25px;
+    position: relative;
+    left: 21px;
+    top: 15.88px;
+}
+.padreTarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+header {
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+header h6.descuento{
+    background-color: #1CD1B0;
+    color: black;
+    padding: 10px 0px 10px 20px;
+}
+
+header h1.heroes{
+    background-color: #00669F;
+    color: black;
+    padding: 20px 0px 20px 20px;
+}
+footer{
+    background-color: #00669F;
+    color: rgb(255, 255, 255);
+    padding: 10px 0px 10px 20px;
+
+}
+
+footer h5{
+    margin-top: 2px;
+}
